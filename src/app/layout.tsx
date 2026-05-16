@@ -64,6 +64,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Beyond Matter · 超越物质" }],
     title: "Beyond Matter — Reality is becoming structure",
     description:
       "A cinematic essay on how human understanding has moved from objects to relations, fields, information, and pure structure.",
@@ -74,6 +75,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Beyond Matter — Reality is becoming structure",
     description: "Six models of reality, each less material than the last.",
